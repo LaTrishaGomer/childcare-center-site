@@ -28,7 +28,8 @@ body {
 
 h1,
 h2,
-h5 {
+h5,
+p {
     margin: 0;
 }
 
@@ -145,3 +146,30 @@ p {
     height: 58px;
     width: 189px;
 }
+
+nav {
+    background-color: var(--cream);
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav button {
+    background-color: var(--green);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 102%;
+    color: var(--white);
+    border-radius: 50px;
+    height: 58px;
+    width: 189px;
+    border: none;
+  }
+
+  #left-nav,
+  #right-nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
